@@ -1,9 +1,11 @@
 Source: ureadahead
 Section: admin
 Priority: required
-Maintainer: Scott James Remnant <scott@ubuntu.com>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Scott James Remnant <scott@ubuntu.com>
 Standards-Version: 3.9.1
 Build-Depends: debhelper (>= 7.3.15ubuntu3), pkg-config (>= 0.22), libnih-dev (>= 1.0.0), libblkid-dev (>= 2.16), e2fslibs-dev (>= 1.41)
+XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
 
 Package: ureadahead
 Architecture: any
